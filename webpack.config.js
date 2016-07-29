@@ -1,7 +1,6 @@
 var webpack = require('webpack');
 var path = require('path');
 
-
 module.exports = {
 	//to make sure, the develper is redirected to the source file,
 	//rather than the bundled file
@@ -13,7 +12,7 @@ module.exports = {
 		path.join(__dirname, 'public/js/app.jsx')
 	],
 
-//output folder for the bundled file
+	//output folder for the bundled file
 	output: {
 		path: path.join(__dirname, 'public/dist'),
 		filename: 'bundle.js',

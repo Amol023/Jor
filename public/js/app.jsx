@@ -16,5 +16,5 @@ const Test = React.createClass({
 
 module.exports = Test;
 
-ReactDOM.render(<Test />, document.getElementById('container'));
+// ReactDOM.render(<Test />, document.getElementById('container'));
 //test
